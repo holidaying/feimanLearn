@@ -1,0 +1,9 @@
+Installing Chrome...
+  Downloading Chrome 154.0.8037.57 for win64
+  https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.57/win64/chrome-win64.zip
+  10/196 MB (5%)
+  Retrying download (attempt 2/3)
+  10/196 MB (5%)  20/196 MB (10%)  29/196 MB (15%)  39/196 MB (20%)
+  Retrying download (attempt 3/3)
+
+✗ Download error: error decoding response body: request or response body error: operation timed out

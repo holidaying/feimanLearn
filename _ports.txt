@@ -1,0 +1,2 @@
+﻿PORT 8000 LISTEN pid=41640 name=python
+PORT 5173 LISTEN pid=40224 name=node

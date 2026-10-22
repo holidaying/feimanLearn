@@ -1,0 +1,19 @@
+{
+  "name": "feynman-lab-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "费曼实验课 · Web 端（Vue3 + Vite）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.4.0"
+  }
+}

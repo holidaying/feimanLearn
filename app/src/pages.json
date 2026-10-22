@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "path": "pages/bench/bench",
+      "style": {
+        "navigationBarTitleText": "实验台",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/bank/bank",
+      "style": {
+        "navigationBarTitleText": "全部课题",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/favorites/favorites",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/narration/narration",
+      "style": {
+        "navigationBarTitleText": "裸讲",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/report/report",
+      "style": {
+        "navigationBarTitleText": "实验报告",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/graduation/graduation",
+      "style": {
+        "navigationBarTitleText": "实验产出",
+        "navigationBarBackgroundColor": "#F6F2E9",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F6F2E9",
+    "backgroundColor": "#F6F2E9",
+    "backgroundTextStyle": "dark"
+  }
+}

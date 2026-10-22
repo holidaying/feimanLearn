@@ -1,0 +1,50 @@
+{
+  "name": "费曼实验课",
+  "appid": "__UNI__FYNMAN1",
+  "description": "每天10个话题，随机抽一个，裸讲一遍，让AI当那个听不懂的外行给你打分",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {
+      "Speech": {},
+      "Share": {},
+      "SQLite": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
+        ],
+        "minSdkVersion": 21,
+        "targetSdkVersion": 33
+      },
+      "sdkConfigs": {}
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": { "urlCheck": false },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "费曼实验课",
+    "router": { "mode": "hash" },
+    "devServer": { "port": 5174, "disableHostCheck": true }
+  },
+  "vueVersion": "3"
+}
